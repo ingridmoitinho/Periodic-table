@@ -1,0 +1,118 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+  
+  body {
+    background-color: rgb(211, 211, 211);
+    font-family: "Dosis", sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+  }
+  
+  table {
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    
+  }
+  
+  
+ h1 {
+    margin-top: 1em;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+  }
+
+
+  td {
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    color: white;
+    width: 50px;
+    height: 55px;
+    transition: transform 0.7s ease-in-out; 
+  }
+  
+  td:hover  {
+    transform: scale(2.1); 
+  }
+  
+  td.v:hover  {
+    transform: none; 
+  }
+  
+  
+  td .name {
+    font-size: 9px;
+  }
+ 
+  .number {
+    font-size: 7px;
+    margin-left: 4em;
+  }
+
+  .dark-blue {
+    background-color: #495ca7;
+  }
+  
+  .v {
+    background-color: rgb(211, 211, 211);
+    border: none;
+  }
+  
+  .color1, .purple {
+    background-color: #6e5ba5;
+  }
+  
+  .color2, .pink {
+    background-color: #f382b3;
+  }
+  
+  .color3, .orange {
+    background-color: #f38439;
+  }
+  
+  .color4, .light-blue {
+    background-color: #73c4e6;
+  }
+  
+  .color5, .green {
+    background-color: #42b271;
+  }
+  
+  .color6, .yellow{
+    background-color: #c6b924;
+  }
+  
+  #penultimate-line, .red {
+    background-color: #ea3434;
+  }
+  
+  #last-line, .burgundy {
+    background-color: #a4243c;
+  }
+  
+  
+
+ 
+  
+  
+   
+ 
